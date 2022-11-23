@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>Validaciones de datos JS</title>
+    </head>
+    <body>
+        <div class="container">
+            <h3>Validaciones con JS</h3>
+            <form action="" id="formulario">    
+                <input placeholder="Nombre" class="nombre" id="nombre">
+                <input placeholder="Despacho" class="despacho" id="despacho">
+                <input placeholder="Puesto" class="puesto" id="puesto">
+                <input placeholder="Edad" class="edad" id="edad">
+                <input placeholder="Sueldo" class="sueldo" id="sueldo">
+                <input type="submit" class="enviar" id="enviar" onclick="return enviarFormulario()" value="Enviar">
+            </form>
+        </div>
+        <div id="error" class="error"></div>
+    </body>
+    <script src="js/validacion.js"></script>
+</html>

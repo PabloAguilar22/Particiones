@@ -1,0 +1,122 @@
+body, html{
+    background: #798cca;
+    position: relative;
+    
+}
+h3{
+    color: rgb(233, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.container{
+    margin-top: 5rem;
+    margin-left: 40%;
+    border-radius: 9px;
+    align-items: center;
+    padding: 10px;
+    width: 20rem;
+    height: 26rem;
+    background-color: #5d527241;
+    text-align: center;
+}
+
+.nombre{
+    padding: 10px;
+    width: 18.5rem;
+    height: 30px;
+    display: block;
+    background-color: #3535353a;
+    color: #dfdfdf;
+    border-radius: 6px;
+    border-color: transparent;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.despacho{
+    margin-top: 10px;
+    padding: 10px;
+    width: 18.5rem;
+    height: 30px;
+    display: block;
+    background-color: #3535353a;
+    color: #dfdfdf;
+    border-radius: 6px;
+    border-color: transparent;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.puesto{
+    margin-top: 10px;
+    padding: 10px;
+    width: 18.5rem;
+    height: 30px;
+    display: block;
+    background-color: #3535353a;
+    color: #dfdfdf;
+    border-radius: 6px;
+    border-color: transparent;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.edad{
+    margin-top: 10px;
+    padding: 10px;
+    width: 18.5rem;
+    height: 30px;
+    display: block;
+    background-color: #3535353a;
+    color: #dfdfdf;
+    border-radius: 6px;
+    border-color: transparent;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.sueldo{
+    margin-top: 10px;
+    padding: 10px;
+    width: 18.5rem;
+    height: 30px;
+    display: block;
+    background-color: #3535353a;
+    color: #dfdfdf;
+    border-radius: 6px;
+    border-color: transparent;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.enviar{
+    margin-top: 10px;
+    padding: 1px;
+    width: 5rem;
+    height: 35px;
+    background-color: #3535356e;
+    border-radius: 8px;
+    border-color: transparent;
+    letter-spacing: 1px;
+    color: #dddddd;
+    font-size: 20px;
+}
+
+.error{
+    margin-top: 5rem;
+    margin-left: 18%;
+    width: 25rem;
+    height: 10rem;
+    /*background-color: #3535353a;*/
+    color: rgb(231, 169, 169);
+    font-size: 25px;
+    text-align: center;
+}
+::placeholder{
+    color: rgb(209, 209, 209);
+    font-size: 20px;
+    padding: 6px;
+    border: none;
+}
